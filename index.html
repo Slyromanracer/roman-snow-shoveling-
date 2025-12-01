@@ -1,37 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Snow Services — Roman</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roman’s Snow Services</title>
+<style>
+  body {
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #0a192f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  .card {
+    background: #112240;
+    width: 400px;
+    padding: 25px;
+    border-radius: 22px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 6px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.8;
+    margin-bottom: 18px;
+  }
+
+  .snowflakes {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+
+  .contact {
+    text-align: center;
+    font-size: 22px;
+    background: #00eaff;
+    color: #0a192f;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+
+  .price {
+    text-align: center;
+    font-size: 18px;
+    background: #06d6a0;
+    padding: 8px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: #0a192f;
+    margin-top: 14px;
+  }
+
+  .section-title {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 22px;
+    margin-bottom: 6px;
+    border-left: 4px solid #00eaff;
+    padding-left: 8px;
+  }
+
+  ul {
+    line-height: 1.6;
+    padding-left: 18px;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 18px;
+    opacity: 0.6;
+  }
+</style>
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans p-6 flex justify-center">
-  <div class="max-w-md w-full bg-white shadow-md rounded-2xl p-6 space-y-4 border border-gray-100">
+<body>
+  <div class="card">
 
-    <h1 class="text-2xl font-bold text-center">❄️ Roman’s Snow Services ❄️</h1>
+    <!-- Snowflake branding -->
+    <div class="snowflakes">
+      ❄️
+      ❄️
+    </div>
 
-    <p class="text-center text-lg">📞 304-374-6750</p>
+    <!-- Header -->
+    <h1>Roman’s Snow Services</h1>
+    <div class="subtitle">Snow Shoveling & Ice Salting</div>
 
-    <p class="text-center font-semibold text-green-600">$30 — Sidewalk & Driveway Snow Removal + Salting</p>
+    <!-- Contact -->
+    <div class="contact">📞 304-374-6750</div>
 
-    <hr class="border-gray-200"/>
+    <!-- Pricing -->
+    <div class="price">$30 — Sidewalk & Driveway</div>
 
-    <h2 class="text-xl font-semibold">About Me</h2>
+    <!-- About -->
+    <div class="section-title">About Me</div>
     <p>
-      Hey, I’m Roman. I'm 16 years old and I run a local snow shoveling and salting business.
-      I enjoy working outside, helping my community, and using 3D printing to make my ideas real.
-      I always strive to be better, improve my work, and do every job with quality and care.
-      My goal is to grow my business, make people’s winters easier, and become more skilled every day.
+      Hey! I'm Roman, a 16-year-old business owner who loves working outdoors and helping people in the winter.
+      I always **strive to improve**, work harder, and make every job better than the last.
+      Customer safety and satisfaction always come first for me.
     </p>
 
-    <h2 class="text-xl font-semibold">What I Offer</h2>
-    <ul class="list-disc pl-5 space-y-1">
-      <li>Snow shoveling for sidewalks & driveways</li>
-      <li>Salting / ice-melt spreading for safer paths</li>
-      <li>Reliable service even early morning or late snowfalls</li>
+    <!-- Services -->
+    <div class="section-title">Services I Provide</div>
+    <ul>
+      <li>Sidewalk Snow Removal</li>
+      <li>Driveway Snow Removal</li>
+      <li>Ice-Melt & Salting</li>
+      <li>Early-Morning or Late-Snowfall Service</li>
     </ul>
 
-    <p class="text-sm text-center text-gray-500 mt-4">Serving Weirton, WV and surrounding areas</p>
+    <!-- Area -->
+    <div class="section-title">Serving Area</div>
+    <p style="text-align:center;font-size:16px;background:#ffad00;color:#0a192f;padding:6px;border-radius:12px;font-weight:bold;">
+      📍 Maryland Heights
+    </p>
+
+    <!-- Footer -->
+    <div class="footer">❄️ Built on hard work, reliability, and improvement ❄️</div>
 
   </div>
 </body>
