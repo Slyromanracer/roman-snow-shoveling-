@@ -5,134 +5,151 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Roman’s Snow Services</title>
 <style>
+
   body {
     margin: 0;
-    font-family: "Poppins", Arial, sans-serif;
-    background: #0a192f;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(120deg, #1b2735, #090a0f);
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 20px;
+    padding: 40px 20px;
   }
 
-  .card {
-    background: #112240;
-    width: 400px;
-    padding: 25px;
-    border-radius: 22px;
-    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  .container {
+    max-width: 600px;
+    margin: auto;
   }
 
   h1 {
     text-align: center;
-    font-size: 26px;
-    margin-bottom: 6px;
+    font-size: 32px;
   }
 
-  .subtitle {
-    text-align: center;
-    font-size: 16px;
-    opacity: 0.8;
-    margin-bottom: 18px;
-  }
-
-  .snowflakes {
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    margin-bottom: 14px;
-  }
-
-  .contact {
+  .important {
+    background: #00c2ff;
+    padding: 12px;
+    border-radius: 14px;
+    color: black;
+    font-weight: bold;
     text-align: center;
     font-size: 22px;
-    background: #00eaff;
-    color: #0a192f;
-    padding: 10px;
-    border-radius: 12px;
-    font-weight: bold;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 194, 255, 0.6);
   }
 
-  .price {
+  .pricing-box {
+    background: #06ff9e;
+    color: black;
+    padding: 12px;
+    border-radius: 14px;
     text-align: center;
-    font-size: 18px;
-    background: #06d6a0;
-    padding: 8px;
-    border-radius: 12px;
+    font-size: 20px;
     font-weight: bold;
-    color: #0a192f;
-    margin-top: 14px;
+    margin: 15px 0;
+    box-shadow: 0 0 8px rgba(6, 255, 158, 0.7);
+  }
+
+  .section {
+    text-align: center;
+    margin-top: 30px;
   }
 
   .section-title {
-    font-size: 19px;
-    font-weight: 600;
-    margin-top: 22px;
-    margin-bottom: 6px;
-    border-left: 4px solid #00eaff;
-    padding-left: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 2px solid #00c2ff;
+    padding-bottom: 4px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 520px;
+    margin: auto;
   }
 
   ul {
-    line-height: 1.6;
-    padding-left: 18px;
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  li::before {
+    content: "✔ ";
+    color: #06ff9e;
   }
 
   .footer {
+    font-size: 14px;
     text-align: center;
-    font-size: 13px;
-    margin-top: 18px;
-    opacity: 0.6;
+    opacity: 0.7;
+    margin-top: 40px;
+  }
+
+  a.button {
+    display: block;
+    background: #ffad00;
+    padding: 12px;
+    border-radius: 14px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 28px;
+    box-shadow: 0 0 8px rgba(255, 173, 0, 0.8);
+  }
+
+  a.button:hover {
+    transform: scale(1.05);
   }
 </style>
 </head>
 <body>
-  <div class="card">
 
-    <!-- Snowflake branding -->
-    <div class="snowflakes">
-      ❄️
-      ❄️
-    </div>
+<div class="container">
 
-    <!-- Header -->
-    <h1>Roman’s Snow Services</h1>
-    <div class="subtitle">Snow Shoveling & Ice Salting</div>
+  <h1>❄️ Roman ❄️ Snow Services ❄️</h1>
 
-    <!-- Contact -->
-    <div class="contact">📞 304-374-6750</div>
+  <div class="important">📞 304-374-6750</div>
 
-    <!-- Pricing -->
-    <div class="price">$30 — Sidewalk & Driveway</div>
+  <div class="pricing-box">$30 — Sidewalk & Driveway Snow Removal + Salting</div>
 
-    <!-- About -->
-    <div class="section-title">About Me</div>
+  <div class="section">
+    <div class="section-title">Who I Am</div>
     <p>
-      Hey! I'm Roman, a 16-year-old business owner who loves working outdoors and helping people in the winter.
-      I always **strive to improve**, work harder, and make every job better than the last.
-      Customer safety and satisfaction always come first for me.
+      Hey, I'm Roman! I’m 16 and run a snow shoveling and salting business in Maryland Heights.
+      I love working hard, helping my neighbors stay safe in the winter, and always strive to be better at what I do.
+      Every job matters to me, and you can always count on fast, reliable service!
     </p>
-
-    <!-- Services -->
-    <div class="section-title">Services I Provide</div>
-    <ul>
-      <li>Sidewalk Snow Removal</li>
-      <li>Driveway Snow Removal</li>
-      <li>Ice-Melt & Salting</li>
-      <li>Early-Morning or Late-Snowfall Service</li>
-    </ul>
-
-    <!-- Area -->
-    <div class="section-title">Serving Area</div>
-    <p style="text-align:center;font-size:16px;background:#ffad00;color:#0a192f;padding:6px;border-radius:12px;font-weight:bold;">
-      📍 Maryland Heights
-    </p>
-
-    <!-- Footer -->
-    <div class="footer">❄️ Built on hard work, reliability, and improvement ❄️</div>
-
   </div>
+
+  <div class="section">
+    <div class="section-title">What I Do</div>
+    <ul>
+      <li>Snow Shoveling</li>
+      <li>Ice-Melt / Salting</li>
+      <li>Clearing Sidewalks</li>
+      <li>Clearing Driveways</li>
+      <li>Early Morning & Late Snow Support</li>
+    </ul>
+  </div>
+
+  <a class="button" href="#contact">Get Snow Help</a>
+
+  <div id="contact" class="section">
+    <div class="section-title">Contact Me</div>
+    <p style="margin-top:10px;">
+      Text or call <strong>304-374-6750</strong> for service!<br>
+      Fast answers, fast snow clearing. Stay warm! ❄️
+    </p>
+  </div>
+
+  <div class="footer">❄️ Serving Maryland Heights with pride ❄️</div>
+
+</div>
+
 </body>
 </html>
